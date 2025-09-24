@@ -1,0 +1,14 @@
+This is a test document for the Intelligent Document Summarizer.
+
+The document contains information about machine learning and artificial intelligence.
+It discusses various algorithms and techniques used in modern AI systems.
+
+Key topics include:
+- Neural networks
+- Deep learning
+- Natural language processing
+- Computer vision
+- Reinforcement learning
+
+This document serves as a sample for testing the document processing capabilities
+of the Intelligent Document Summarizer application.
