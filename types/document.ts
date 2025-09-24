@@ -21,6 +21,8 @@ export interface DocumentData {
     wordCount: number
     processingTime: number
     timestamp: string
+    documentType: string
+    keyTopics: string[]
   }
 }
 
