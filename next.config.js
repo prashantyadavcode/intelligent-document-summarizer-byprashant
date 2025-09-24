@@ -28,6 +28,9 @@ const nextConfig = {
     }
     return config
   },
+  // Render-specific optimizations
+  output: 'standalone',
+  poweredByHeader: false,
 }
 
 module.exports = nextConfig
