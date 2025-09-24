@@ -3,5 +3,8 @@
     "app/api/**/*.ts": {
       "maxDuration": 60
     }
-  }
+  },
+  "buildCommand": "npm run build",
+  "installCommand": "npm ci --prefer-offline --no-audit",
+  "framework": "nextjs"
 }

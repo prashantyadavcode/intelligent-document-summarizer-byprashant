@@ -11,6 +11,23 @@ const nextConfig = {
       },
     ]
   },
+  // Optimize build for memory efficiency
+  swcMinify: true,
+  experimental: {
+    optimizeCss: true,
+  },
+  // Reduce bundle size
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+        net: false,
+        tls: false,
+      }
+    }
+    return config
+  },
 }
 
 module.exports = nextConfig
